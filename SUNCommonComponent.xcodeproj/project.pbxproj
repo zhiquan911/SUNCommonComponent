@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A25BDF117D811A900974899 /* SUNListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A25BDEF17D811A900974899 /* SUNListViewController.m */; };
+		6A25BDF217D811A900974899 /* SUNListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A25BDF017D811A900974899 /* SUNListViewController.xib */; };
+		6A25BDF517D8A39F00974899 /* icon_rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A25BDF317D8A39F00974899 /* icon_rightarrow.png */; };
+		6A25BDF617D8A39F00974899 /* icon_rightarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A25BDF417D8A39F00974899 /* icon_rightarrow@2x.png */; };
+		6A261B0A17D6C63F00561677 /* red_line_and_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A261AF917D6C63F00561677 /* red_line_and_shadow@2x.png */; };
+		6A261B0F17D6C63F00561677 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261B0217D6C63F00561677 /* MMDrawerBarButtonItem.m */; };
+		6A261B1017D6C63F00561677 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261B0417D6C63F00561677 /* MMDrawerController.m */; };
+		6A261B1117D6C63F00561677 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261B0617D6C63F00561677 /* MMDrawerVisualState.m */; };
+		6A261B1217D6C63F00561677 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261B0817D6C63F00561677 /* UIViewController+MMDrawerController.m */; };
+		6A261B1717D6C6A600561677 /* SUNLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261B1517D6C6A600561677 /* SUNLeftMenuViewController.m */; };
+		6A261B1817D6C6A600561677 /* SUNLeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A261B1617D6C6A600561677 /* SUNLeftMenuViewController.xib */; };
+		6A261B1C17D6C87700561677 /* SUNSlideSwitchDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261B1A17D6C87700561677 /* SUNSlideSwitchDemoViewController.m */; };
+		6A261B1D17D6C87700561677 /* SUNSlideSwitchDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A261B1B17D6C87700561677 /* SUNSlideSwitchDemoViewController.xib */; };
+		6A261B1F17D6CBAA00561677 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A261B1E17D6CBAA00561677 /* QuartzCore.framework */; };
+		6A261B2217D6DD1900561677 /* SUNSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261B2117D6DD1900561677 /* SUNSlideSwitchView.m */; };
+		6A4A6AA417C4532F0057BE87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4A6AA317C4532F0057BE87 /* UIKit.framework */; };
+		6A4A6AA617C4532F0057BE87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4A6AA517C4532F0057BE87 /* Foundation.framework */; };
+		6A4A6AA817C4532F0057BE87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4A6AA717C4532F0057BE87 /* CoreGraphics.framework */; };
+		6A4A6AAE17C4532F0057BE87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4A6AAC17C4532F0057BE87 /* InfoPlist.strings */; };
+		6A4A6AB017C4532F0057BE87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A6AAF17C4532F0057BE87 /* main.m */; };
+		6A4A6AB417C4532F0057BE87 /* SUNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A6AB317C4532F0057BE87 /* SUNAppDelegate.m */; };
+		6A4A6AB617C4532F0057BE87 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4A6AB517C4532F0057BE87 /* Default.png */; };
+		6A4A6AB817C4532F0057BE87 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4A6AB717C4532F0057BE87 /* Default@2x.png */; };
+		6A4A6ABA17C4532F0057BE87 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4A6AB917C4532F0057BE87 /* Default-568h@2x.png */; };
+		6A4A6AC217C4532F0057BE87 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4A6AC117C4532F0057BE87 /* SenTestingKit.framework */; };
+		6A4A6AC317C4532F0057BE87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4A6AA317C4532F0057BE87 /* UIKit.framework */; };
+		6A4A6AC417C4532F0057BE87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4A6AA517C4532F0057BE87 /* Foundation.framework */; };
+		6A4A6ACC17C4532F0057BE87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4A6ACA17C4532F0057BE87 /* InfoPlist.strings */; };
+		6A4A6ACF17C4532F0057BE87 /* SUNCommonComponentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A6ACE17C4532F0057BE87 /* SUNCommonComponentTests.m */; };
+		6A4A6ADD17C453B40057BE87 /* SUNTextFieldDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A6ADB17C453B40057BE87 /* SUNTextFieldDemoViewController.m */; };
+		6A4A6ADE17C453B40057BE87 /* SUNTextFieldDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A4A6ADC17C453B40057BE87 /* SUNTextFieldDemoViewController.xib */; };
+		6A4A6AE117C453FC0057BE87 /* SUNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A6AE017C453FC0057BE87 /* SUNTextField.m */; };
+		6AAE83E118052D930096472E /* SUNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE83E018052D930096472E /* SUNViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A4A6AC517C4532F0057BE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A4A6A9817C4532F0057BE87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4A6A9F17C4532F0057BE87;
+			remoteInfo = SUNCommonComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A25BDEE17D811A900974899 /* SUNListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNListViewController.h; sourceTree = "<group>"; };
+		6A25BDEF17D811A900974899 /* SUNListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNListViewController.m; sourceTree = "<group>"; };
+		6A25BDF017D811A900974899 /* SUNListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SUNListViewController.xib; sourceTree = "<group>"; };
+		6A25BDF317D8A39F00974899 /* icon_rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_rightarrow.png; sourceTree = "<group>"; };
+		6A25BDF417D8A39F00974899 /* icon_rightarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_rightarrow@2x.png"; sourceTree = "<group>"; };
+		6A261AF917D6C63F00561677 /* red_line_and_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_line_and_shadow@2x.png"; sourceTree = "<group>"; };
+		6A261B0117D6C63F00561677 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		6A261B0217D6C63F00561677 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		6A261B0317D6C63F00561677 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		6A261B0417D6C63F00561677 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		6A261B0517D6C63F00561677 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		6A261B0617D6C63F00561677 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		6A261B0717D6C63F00561677 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		6A261B0817D6C63F00561677 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		6A261B1417D6C6A600561677 /* SUNLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNLeftMenuViewController.h; sourceTree = "<group>"; };
+		6A261B1517D6C6A600561677 /* SUNLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNLeftMenuViewController.m; sourceTree = "<group>"; };
+		6A261B1617D6C6A600561677 /* SUNLeftMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SUNLeftMenuViewController.xib; sourceTree = "<group>"; };
+		6A261B1917D6C87700561677 /* SUNSlideSwitchDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNSlideSwitchDemoViewController.h; sourceTree = "<group>"; };
+		6A261B1A17D6C87700561677 /* SUNSlideSwitchDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNSlideSwitchDemoViewController.m; sourceTree = "<group>"; };
+		6A261B1B17D6C87700561677 /* SUNSlideSwitchDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SUNSlideSwitchDemoViewController.xib; sourceTree = "<group>"; };
+		6A261B1E17D6CBAA00561677 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6A261B2017D6DD1900561677 /* SUNSlideSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNSlideSwitchView.h; sourceTree = "<group>"; };
+		6A261B2117D6DD1900561677 /* SUNSlideSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNSlideSwitchView.m; sourceTree = "<group>"; };
+		6A4A6AA017C4532F0057BE87 /* SUNCommonComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUNCommonComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4A6AA317C4532F0057BE87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A4A6AA517C4532F0057BE87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A4A6AA717C4532F0057BE87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A4A6AAB17C4532F0057BE87 /* SUNCommonComponent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SUNCommonComponent-Info.plist"; sourceTree = "<group>"; };
+		6A4A6AAD17C4532F0057BE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A4A6AAF17C4532F0057BE87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A4A6AB117C4532F0057BE87 /* SUNCommonComponent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SUNCommonComponent-Prefix.pch"; sourceTree = "<group>"; };
+		6A4A6AB217C4532F0057BE87 /* SUNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUNAppDelegate.h; sourceTree = "<group>"; };
+		6A4A6AB317C4532F0057BE87 /* SUNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUNAppDelegate.m; sourceTree = "<group>"; };
+		6A4A6AB517C4532F0057BE87 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6A4A6AB717C4532F0057BE87 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6A4A6AB917C4532F0057BE87 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6A4A6AC017C4532F0057BE87 /* SUNCommonComponentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUNCommonComponentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4A6AC117C4532F0057BE87 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A4A6AC917C4532F0057BE87 /* SUNCommonComponentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SUNCommonComponentTests-Info.plist"; sourceTree = "<group>"; };
+		6A4A6ACB17C4532F0057BE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A4A6ACD17C4532F0057BE87 /* SUNCommonComponentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUNCommonComponentTests.h; sourceTree = "<group>"; };
+		6A4A6ACE17C4532F0057BE87 /* SUNCommonComponentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUNCommonComponentTests.m; sourceTree = "<group>"; };
+		6A4A6ADA17C453B40057BE87 /* SUNTextFieldDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNTextFieldDemoViewController.h; sourceTree = "<group>"; };
+		6A4A6ADB17C453B40057BE87 /* SUNTextFieldDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNTextFieldDemoViewController.m; sourceTree = "<group>"; };
+		6A4A6ADC17C453B40057BE87 /* SUNTextFieldDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SUNTextFieldDemoViewController.xib; sourceTree = "<group>"; };
+		6A4A6ADF17C453FC0057BE87 /* SUNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SUNTextField.h; path = component/SUNTextField.h; sourceTree = SOURCE_ROOT; };
+		6A4A6AE017C453FC0057BE87 /* SUNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SUNTextField.m; path = component/SUNTextField.m; sourceTree = SOURCE_ROOT; };
+		6AAE83DB18052D1C0096472E /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		6AAE83DF18052D930096472E /* SUNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNViewController.h; sourceTree = "<group>"; };
+		6AAE83E018052D930096472E /* SUNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A4A6A9D17C4532F0057BE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A261B1F17D6CBAA00561677 /* QuartzCore.framework in Frameworks */,
+				6A4A6AA417C4532F0057BE87 /* UIKit.framework in Frameworks */,
+				6A4A6AA617C4532F0057BE87 /* Foundation.framework in Frameworks */,
+				6A4A6AA817C4532F0057BE87 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4A6ABC17C4532F0057BE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4A6AC217C4532F0057BE87 /* SenTestingKit.framework in Frameworks */,
+				6A4A6AC317C4532F0057BE87 /* UIKit.framework in Frameworks */,
+				6A4A6AC417C4532F0057BE87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A261AF417D6C57100561677 /* frame */ = {
+			isa = PBXGroup;
+			children = (
+				6A261AF517D6C63F00561677 /* SlideSwitch */,
+				6A261B0017D6C63F00561677 /* MMDrawerController */,
+			);
+			name = frame;
+			sourceTree = "<group>";
+		};
+		6A261AF517D6C63F00561677 /* SlideSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				6A261AF817D6C63F00561677 /* resources */,
+				6A261B2017D6DD1900561677 /* SUNSlideSwitchView.h */,
+				6A261B2117D6DD1900561677 /* SUNSlideSwitchView.m */,
+			);
+			name = SlideSwitch;
+			path = frame/SlideSwitch;
+			sourceTree = SOURCE_ROOT;
+		};
+		6A261AF817D6C63F00561677 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A25BDF317D8A39F00974899 /* icon_rightarrow.png */,
+				6A25BDF417D8A39F00974899 /* icon_rightarrow@2x.png */,
+				6A261AF917D6C63F00561677 /* red_line_and_shadow@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6A261B0017D6C63F00561677 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				6AAE83DB18052D1C0096472E /* MMDrawerController+Subclass.h */,
+				6A261B0117D6C63F00561677 /* MMDrawerBarButtonItem.h */,
+				6A261B0217D6C63F00561677 /* MMDrawerBarButtonItem.m */,
+				6A261B0317D6C63F00561677 /* MMDrawerController.h */,
+				6A261B0417D6C63F00561677 /* MMDrawerController.m */,
+				6A261B0517D6C63F00561677 /* MMDrawerVisualState.h */,
+				6A261B0617D6C63F00561677 /* MMDrawerVisualState.m */,
+				6A261B0717D6C63F00561677 /* UIViewController+MMDrawerController.h */,
+				6A261B0817D6C63F00561677 /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawerController;
+			path = frame/MMDrawerController;
+			sourceTree = SOURCE_ROOT;
+		};
+		6A261B1317D6C64C00561677 /* framedemo */ = {
+			isa = PBXGroup;
+			children = (
+				6A261B1417D6C6A600561677 /* SUNLeftMenuViewController.h */,
+				6A261B1517D6C6A600561677 /* SUNLeftMenuViewController.m */,
+				6A261B1617D6C6A600561677 /* SUNLeftMenuViewController.xib */,
+				6A261B1917D6C87700561677 /* SUNSlideSwitchDemoViewController.h */,
+				6A261B1A17D6C87700561677 /* SUNSlideSwitchDemoViewController.m */,
+				6A261B1B17D6C87700561677 /* SUNSlideSwitchDemoViewController.xib */,
+				6A25BDEE17D811A900974899 /* SUNListViewController.h */,
+				6A25BDEF17D811A900974899 /* SUNListViewController.m */,
+				6A25BDF017D811A900974899 /* SUNListViewController.xib */,
+				6AAE83DF18052D930096472E /* SUNViewController.h */,
+				6AAE83E018052D930096472E /* SUNViewController.m */,
+			);
+			name = framedemo;
+			sourceTree = "<group>";
+		};
+		6A4A6A9717C4532F0057BE87 = {
+			isa = PBXGroup;
+			children = (
+				6A4A6AA917C4532F0057BE87 /* SUNCommonComponent */,
+				6A4A6AC717C4532F0057BE87 /* SUNCommonComponentTests */,
+				6A4A6AA217C4532F0057BE87 /* Frameworks */,
+				6A4A6AA117C4532F0057BE87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A4A6AA117C4532F0057BE87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A4A6AA017C4532F0057BE87 /* SUNCommonComponent.app */,
+				6A4A6AC017C4532F0057BE87 /* SUNCommonComponentTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A4A6AA217C4532F0057BE87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A261B1E17D6CBAA00561677 /* QuartzCore.framework */,
+				6A4A6AA317C4532F0057BE87 /* UIKit.framework */,
+				6A4A6AA517C4532F0057BE87 /* Foundation.framework */,
+				6A4A6AA717C4532F0057BE87 /* CoreGraphics.framework */,
+				6A4A6AC117C4532F0057BE87 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A4A6AA917C4532F0057BE87 /* SUNCommonComponent */ = {
+			isa = PBXGroup;
+			children = (
+				6A261AF417D6C57100561677 /* frame */,
+				6A4A6AD817C453710057BE87 /* component */,
+				6A4A6AD917C4537D0057BE87 /* componentdemo */,
+				6A261B1317D6C64C00561677 /* framedemo */,
+				6A4A6AB217C4532F0057BE87 /* SUNAppDelegate.h */,
+				6A4A6AB317C4532F0057BE87 /* SUNAppDelegate.m */,
+				6A4A6AAA17C4532F0057BE87 /* Supporting Files */,
+			);
+			path = SUNCommonComponent;
+			sourceTree = "<group>";
+		};
+		6A4A6AAA17C4532F0057BE87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A4A6AAB17C4532F0057BE87 /* SUNCommonComponent-Info.plist */,
+				6A4A6AAC17C4532F0057BE87 /* InfoPlist.strings */,
+				6A4A6AAF17C4532F0057BE87 /* main.m */,
+				6A4A6AB117C4532F0057BE87 /* SUNCommonComponent-Prefix.pch */,
+				6A4A6AB517C4532F0057BE87 /* Default.png */,
+				6A4A6AB717C4532F0057BE87 /* Default@2x.png */,
+				6A4A6AB917C4532F0057BE87 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A4A6AC717C4532F0057BE87 /* SUNCommonComponentTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A4A6ACD17C4532F0057BE87 /* SUNCommonComponentTests.h */,
+				6A4A6ACE17C4532F0057BE87 /* SUNCommonComponentTests.m */,
+				6A4A6AC817C4532F0057BE87 /* Supporting Files */,
+			);
+			path = SUNCommonComponentTests;
+			sourceTree = "<group>";
+		};
+		6A4A6AC817C4532F0057BE87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A4A6AC917C4532F0057BE87 /* SUNCommonComponentTests-Info.plist */,
+				6A4A6ACA17C4532F0057BE87 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A4A6AD817C453710057BE87 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				6A4A6ADF17C453FC0057BE87 /* SUNTextField.h */,
+				6A4A6AE017C453FC0057BE87 /* SUNTextField.m */,
+			);
+			name = component;
+			sourceTree = "<group>";
+		};
+		6A4A6AD917C4537D0057BE87 /* componentdemo */ = {
+			isa = PBXGroup;
+			children = (
+				6A4A6ADA17C453B40057BE87 /* SUNTextFieldDemoViewController.h */,
+				6A4A6ADB17C453B40057BE87 /* SUNTextFieldDemoViewController.m */,
+				6A4A6ADC17C453B40057BE87 /* SUNTextFieldDemoViewController.xib */,
+			);
+			name = componentdemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A4A6A9F17C4532F0057BE87 /* SUNCommonComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4A6AD217C4532F0057BE87 /* Build configuration list for PBXNativeTarget "SUNCommonComponent" */;
+			buildPhases = (
+				6A4A6A9C17C4532F0057BE87 /* Sources */,
+				6A4A6A9D17C4532F0057BE87 /* Frameworks */,
+				6A4A6A9E17C4532F0057BE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SUNCommonComponent;
+			productName = SUNCommonComponent;
+			productReference = 6A4A6AA017C4532F0057BE87 /* SUNCommonComponent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A4A6ABF17C4532F0057BE87 /* SUNCommonComponentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4A6AD517C4532F0057BE87 /* Build configuration list for PBXNativeTarget "SUNCommonComponentTests" */;
+			buildPhases = (
+				6A4A6ABB17C4532F0057BE87 /* Sources */,
+				6A4A6ABC17C4532F0057BE87 /* Frameworks */,
+				6A4A6ABD17C4532F0057BE87 /* Resources */,
+				6A4A6ABE17C4532F0057BE87 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A4A6AC617C4532F0057BE87 /* PBXTargetDependency */,
+			);
+			name = SUNCommonComponentTests;
+			productName = SUNCommonComponentTests;
+			productReference = 6A4A6AC017C4532F0057BE87 /* SUNCommonComponentTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A4A6A9817C4532F0057BE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SUN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "中山市新联医疗科技有限公司";
+			};
+			buildConfigurationList = 6A4A6A9B17C4532F0057BE87 /* Build configuration list for PBXProject "SUNCommonComponent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A4A6A9717C4532F0057BE87;
+			productRefGroup = 6A4A6AA117C4532F0057BE87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A4A6A9F17C4532F0057BE87 /* SUNCommonComponent */,
+				6A4A6ABF17C4532F0057BE87 /* SUNCommonComponentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A4A6A9E17C4532F0057BE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4A6AAE17C4532F0057BE87 /* InfoPlist.strings in Resources */,
+				6A4A6AB617C4532F0057BE87 /* Default.png in Resources */,
+				6A4A6AB817C4532F0057BE87 /* Default@2x.png in Resources */,
+				6A4A6ABA17C4532F0057BE87 /* Default-568h@2x.png in Resources */,
+				6A4A6ADE17C453B40057BE87 /* SUNTextFieldDemoViewController.xib in Resources */,
+				6A261B0A17D6C63F00561677 /* red_line_and_shadow@2x.png in Resources */,
+				6A261B1817D6C6A600561677 /* SUNLeftMenuViewController.xib in Resources */,
+				6A261B1D17D6C87700561677 /* SUNSlideSwitchDemoViewController.xib in Resources */,
+				6A25BDF217D811A900974899 /* SUNListViewController.xib in Resources */,
+				6A25BDF517D8A39F00974899 /* icon_rightarrow.png in Resources */,
+				6A25BDF617D8A39F00974899 /* icon_rightarrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4A6ABD17C4532F0057BE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4A6ACC17C4532F0057BE87 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A4A6ABE17C4532F0057BE87 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A4A6A9C17C4532F0057BE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4A6AB017C4532F0057BE87 /* main.m in Sources */,
+				6A4A6AB417C4532F0057BE87 /* SUNAppDelegate.m in Sources */,
+				6A4A6ADD17C453B40057BE87 /* SUNTextFieldDemoViewController.m in Sources */,
+				6A4A6AE117C453FC0057BE87 /* SUNTextField.m in Sources */,
+				6A261B0F17D6C63F00561677 /* MMDrawerBarButtonItem.m in Sources */,
+				6AAE83E118052D930096472E /* SUNViewController.m in Sources */,
+				6A261B1017D6C63F00561677 /* MMDrawerController.m in Sources */,
+				6A261B1117D6C63F00561677 /* MMDrawerVisualState.m in Sources */,
+				6A261B1217D6C63F00561677 /* UIViewController+MMDrawerController.m in Sources */,
+				6A261B1717D6C6A600561677 /* SUNLeftMenuViewController.m in Sources */,
+				6A261B1C17D6C87700561677 /* SUNSlideSwitchDemoViewController.m in Sources */,
+				6A261B2217D6DD1900561677 /* SUNSlideSwitchView.m in Sources */,
+				6A25BDF117D811A900974899 /* SUNListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4A6ABB17C4532F0057BE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4A6ACF17C4532F0057BE87 /* SUNCommonComponentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A4A6AC617C4532F0057BE87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4A6A9F17C4532F0057BE87 /* SUNCommonComponent */;
+			targetProxy = 6A4A6AC517C4532F0057BE87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A4A6AAC17C4532F0057BE87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4A6AAD17C4532F0057BE87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A4A6ACA17C4532F0057BE87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4A6ACB17C4532F0057BE87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A4A6AD017C4532F0057BE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A4A6AD117C4532F0057BE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A4A6AD317C4532F0057BE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SUNCommonComponent/SUNCommonComponent-Prefix.pch";
+				INFOPLIST_FILE = "SUNCommonComponent/SUNCommonComponent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A4A6AD417C4532F0057BE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SUNCommonComponent/SUNCommonComponent-Prefix.pch";
+				INFOPLIST_FILE = "SUNCommonComponent/SUNCommonComponent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A4A6AD617C4532F0057BE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SUNCommonComponent.app/SUNCommonComponent";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SUNCommonComponent/SUNCommonComponent-Prefix.pch";
+				INFOPLIST_FILE = "SUNCommonComponentTests/SUNCommonComponentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A4A6AD717C4532F0057BE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SUNCommonComponent.app/SUNCommonComponent";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SUNCommonComponent/SUNCommonComponent-Prefix.pch";
+				INFOPLIST_FILE = "SUNCommonComponentTests/SUNCommonComponentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A4A6A9B17C4532F0057BE87 /* Build configuration list for PBXProject "SUNCommonComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4A6AD017C4532F0057BE87 /* Debug */,
+				6A4A6AD117C4532F0057BE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4A6AD217C4532F0057BE87 /* Build configuration list for PBXNativeTarget "SUNCommonComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4A6AD317C4532F0057BE87 /* Debug */,
+				6A4A6AD417C4532F0057BE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4A6AD517C4532F0057BE87 /* Build configuration list for PBXNativeTarget "SUNCommonComponentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4A6AD617C4532F0057BE87 /* Debug */,
+				6A4A6AD717C4532F0057BE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A4A6A9817C4532F0057BE87 /* Project object */;
+}
